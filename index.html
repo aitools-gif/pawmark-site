@@ -57,7 +57,7 @@
 <p class="upload-tip">选择主体完整、光线明亮的照片，更好保留它的神态。</p>
 <div class="purchase-line"><span>宠物冰箱贴数字设计稿</span><strong>¥3.00 <small>/ 份</small></strong></div>
 <button class="button generate" id="generate"><svg class="icon"><use href="#spark"/></svg><span id="generateLabel">生成设计</span><svg class="icon"><use href="#arrow"/></svg></button>
-<p class="purchase-note">点击后确认订单，支付宝付款成功后开始生成。</p>
+<p class="purchase-note">每笔付款仅含一次生成流程，重新生成需重新付款。</p>
 <div class="progress-line" id="progress"><span></span></div>
 <p class="status" id="status" role="status" aria-live="polite"></p>
 <div class="result-actions" id="resultActions"><button class="button secondary" id="edit"><svg class="icon"><use href="#image"/></svg>更换照片</button><button class="button green" id="download"><svg class="icon"><use href="#icon-download"/></svg><span id="downloadLabel">下载原始图标</span></button></div>
@@ -93,10 +93,10 @@
 <button class="button" id="pay"><svg class="icon"><use href="#lock"/></svg>使用支付宝付款 <svg class="icon"><use href="#arrow"/></svg></button>
 <button class="checkout-query" id="checkPayment" hidden>我已付款，查询订单状态</button>
 <p id="payStatus" class="status" role="status" aria-live="polite"></p>
-<p class="checkout-note">确认到账后开始生成，可下载设计稿。<br>本次购买为数字文件，不含实物制作与寄送。</p>
+<p class="checkout-note">每笔付款仅含一次生成流程。重新发起（含失败后重试）需重新付款。<br>本次购买为数字文件，不含实物制作与寄送。</p>
 </div>
 </dialog>
 <script src="./magnet-tools.js"></script>
 <script src="./site-config.js?v=github-v1"></script>
-<script src="./pet-studio.js?v=photo-required-v6"></script>
+<script src="./pet-studio.js?v=single-generation-v7"></script>
 </body></html>
