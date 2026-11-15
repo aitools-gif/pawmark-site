@@ -83,7 +83,7 @@ async function runGeneration(){
 }
 $('generate').onclick=async()=>{
  if(busy||restoring)return;
- if(!photo){$('photo').click();return}
+ if(!photo){setStatus('请先上传宠物照片，再生成设计。',true);$('status').scrollIntoView({behavior:'smooth',block:'nearest'});$('drop').focus({preventScroll:true});return}
  if(orderId&&!paid){
   restoring=true;$('generate').disabled=true;
   try{await checkPayment();await save()}
