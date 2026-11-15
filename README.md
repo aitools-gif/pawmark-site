@@ -1,7 +1,9 @@
-# PAWMARK 公开入口
+# PAWMARK 网页前端
 
-此仓库仅包含公开静态入口，自动跳转至 https://traveltag2.jgs154180.chatgpt.site 。
+公开网站：https://aitools-gif.github.io/pawmark-site/
 
-完整应用源码保留在私有仓库。支付签名、支付验证、AI 生成和密钥存储均在原服务端完成，此仓库不包含任何密钥、订单或用户照片。
+页面、样式、脚本和图片由 GitHub Pages 托管，页面不跳转。支付和 AI 接口由独立服务端提供。
 
-GitHub Pages 发布设置：Settings → Pages → Deploy from a branch → main → /(root) → Save。
+此仓库仅包含明确列出的公开前端资产；不包含服务端源码、密钥、订单和用户照片。
+
+发布设置：main 分支，/(root)。

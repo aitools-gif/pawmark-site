@@ -1,29 +1,102 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="refresh" content="0;url=https://traveltag2.jgs154180.chatgpt.site">
-  <link rel="canonical" href="https://traveltag2.jgs154180.chatgpt.site">
-  <title>PAWMARK · 宠物冰箱贴设计</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 24px; background: #faf8f2; color: #30392f; font: 16px/1.8 system-ui, sans-serif; }
-    main { width: min(100%, 520px); padding: 36px; border: 1px solid #e3e5d9; border-radius: 24px; background: #fffdf8; }
-    .brand { color: #55705b; font-weight: 700; letter-spacing: 3px; }
-    h1 { font-family: Georgia, 'Songti SC', serif; font-weight: 400; line-height: 1.5; }
-    p { color: #717d68; }
-    a { display: inline-block; padding: 12px 24px; border-radius: 12px; background: #d66c4f; color: #fff; text-decoration: none; }
-    a:focus-visible { outline: 3px solid #55705b; outline-offset: 4px; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>if(new URLSearchParams(location.search).get('view')==='service')document.documentElement.dataset.view='service';</script>
+<meta name="theme-color" content="#f7f6f0">
+<meta name="description" content="上传宠物照片，定制专属冰箱贴数字设计稿。每份3.00元，确认付款后开始生成，包含透明背景图标下载。">
+<title>PAWMARK · 把可爱留在日常里</title>
+<link rel="icon" href="./favicon.svg">
+<link rel="stylesheet" href="./pet-studio.css?v=atelier-v2">
 </head>
 <body>
-  <main>
-    <div class="brand">PAWMARK</div>
-    <h1>把宠物，变成冰箱贴。</h1>
-    <p>正在前往设计工作室。上传宠物照片，付款 ¥3.00 后生成专属数字设计稿。</p>
-    <a href="https://traveltag2.jgs154180.chatgpt.site">进入设计工作室 →</a>
-  </main>
-</body>
-</html>
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg"><symbol id="paw" viewBox="0 0 32 32"><path d="M9 20c3-6 5-8 7-8s4 2 7 8c2 5-1 8-5 6l-2-1-2 1c-4 2-7-1-5-6Z" fill="currentColor" stroke="none"/><ellipse cx="7" cy="12" rx="3" ry="4" fill="currentColor" stroke="none" transform="rotate(-25 7 12)"/><ellipse cx="13" cy="6" rx="3" ry="4" fill="currentColor" stroke="none"/><ellipse cx="21" cy="7" rx="3" ry="4" fill="currentColor" stroke="none" transform="rotate(15 21 7)"/><ellipse cx="27" cy="14" rx="3" ry="4" fill="currentColor" stroke="none" transform="rotate(30 27 14)"/></symbol><symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-5-5 5 5-5 5"/></symbol><symbol id="spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3ZM20 2v4m-2-2h4"/></symbol><symbol id="heart" viewBox="0 0 24 24"><path d="M20 5c-3-3-7 0-8 2-1-2-5-5-8-2-4 4 2 10 8 14 6-4 12-10 8-14Z"/></symbol><symbol id="upload" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M4 14v6h16v-6"/></symbol><symbol id="image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-7 5 8"/></symbol><symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol><symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></symbol><symbol id="lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol></svg>
+<div class="container">
+<header class="nav">
+<a class="logo" href="#" aria-label="PAWMARK 首页"><img src="./favicon.svg" width="36" height="36" alt=""><span class="wordmark">PAWMARK<span class="logo-caption">A LITTLE LOVE, EVERY DAY.</span></span></a>
+<nav class="nav-links" aria-label="主导航"><a href="./?view=service">设计服务</a><a href="#how">制作流程</a><a class="nav-start" href="#studio">开始定制 <svg class="icon"><use href="#arrow"/></svg></a></nav>
+</header>
+
+<main>
+<section class="hero" id="inspiration">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> 宠物专属 · 数字设计工作室</p>
+<h1>把它的可爱，<br>留在<em>日常里。</em><span class="headline-star" aria-hidden="true">✳</span></h1>
+<p class="hero-desc">一张照片，一份属于它的小小纪念。<br>把熟悉的表情，变成你的专属冰箱贴设计稿。</p>
+<div class="hero-actions"><a class="button" href="#studio">定制我的宠物 <svg class="icon"><use href="#arrow"/></svg></a><span class="hero-price">¥3.00<span> / 份数字设计稿</span></span></div>
+<p class="hero-note"><svg class="icon"><use href="#lock"/></svg> 付款后生成 · 含透明背景图标下载</p>
+</div>
+<div class="hero-visual">
+<div class="hero-orbit" aria-hidden="true"></div>
+<span class="hand-note">made for your little one</span>
+<figure class="sample-wrap"><div class="sample-image"><img src="./assets/pet-keepsake-sample.png" alt="宠物冰箱贴设计示例，卡通猫咪图标与原照片对照"></div><figcaption><span>THE LITTLE THINGS WE LOVE</span><svg class="icon"><use href="#heart"/></svg></figcaption></figure>
+<div class="float-label"><span class="float-icon"><svg class="icon"><use href="#spark"/></svg></span><div>从照片，到专属图标<small>让可爱有另一种模样</small></div></div>
+<span class="hero-star" aria-hidden="true">✦</span>
+</div>
+</section>
+
+<section class="service-strip" id="details" aria-label="设计服务说明">
+<div class="strip-title"><span>01 / THE DESIGN</span><h2>小小设计，大大喜欢。</h2></div>
+<div class="strip-item"><svg class="icon"><use href="#image"/></svg><div>宠物专属设计稿<small>以你上传的照片为灵感</small></div></div>
+<div class="strip-item"><svg class="icon"><use href="#icon-download"/></svg><div>透明背景 PNG<small>生成后可下载独立图标</small></div></div>
+<div class="strip-item"><svg class="icon"><use href="#heart"/></svg><div>一份数字纪念<small>可用于后续自行制作</small></div></div>
+</section>
+
+<section class="studio" id="studio">
+<div class="section-head"><div><p class="eyebrow">02 / YOUR LITTLE MASTERPIECE</p><h2>让主角，闪亮登场。</h2><p class="section-desc">上传一张喜欢的宠物照片，剩下的交给灵感。</p></div><div class="section-price"><strong>¥3.00</strong><span>/ 份 · 付款后生成</span></div></div>
+<div class="studio-shell">
+<div class="controls">
+<div class="step-line"><span class="step-current">1 上传照片</span><i></i><span>2 确认付款</span><i></i><span>3 生成下载</span></div>
+<label class="field-label" for="photo">选择一张它的照片 <span>清晰正面照效果更佳</span></label>
+<label class="upload-box" id="drop" for="photo" tabindex="0" role="button" aria-label="上传宠物照片">
+<img id="photoView" alt="已上传的宠物照片">
+<span class="upload-copy"><span class="upload-symbol"><svg class="icon"><use href="#upload"/></svg></span><strong id="uploadTitle">点击上传，或将照片拖到这里</strong><small>JPG / PNG / WEBP · 最大 15 MB</small></span>
+</label>
+<input type="file" id="photo" accept="image/jpeg,image/png,image/webp">
+<p class="upload-tip">选择主体完整、光线明亮的照片，更好保留它的神态。</p>
+<div class="purchase-line"><span>宠物冰箱贴数字设计稿</span><strong>¥3.00 <small>/ 份</small></strong></div>
+<button class="button generate" id="generate"><svg class="icon"><use href="#spark"/></svg><span id="generateLabel">生成设计</span><svg class="icon"><use href="#arrow"/></svg></button>
+<p class="purchase-note">点击后确认订单，支付宝付款成功后开始生成。</p>
+<div class="progress-line" id="progress"><span></span></div>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+<div class="result-actions" id="resultActions"><button class="button secondary" id="edit"><svg class="icon"><use href="#image"/></svg>更换照片</button><button class="button green" id="download"><svg class="icon"><use href="#icon-download"/></svg><span id="downloadLabel">下载原始图标</span></button></div>
+<p class="edit-note hidden" id="editNote">拼贴画面用于预览，下载文件为独立宠物图标。</p>
+</div>
+<div class="preview-pane">
+<div class="preview-top"><span class="live" id="previewLabel">你的可爱，即将有迹可循</span><span class="preview-tag" id="sampleTag">设计示例</span></div>
+<div class="design-stage" id="designStage"><img id="designView" src="./assets/pet-keepsake-sample.png" alt="卡通宠物图标与原照片的设计对照示例"><div class="watermark" aria-hidden="true" id="watermark"></div></div>
+<div class="preview-bottom"><span class="tiny-star">✳</span><p>每一份小小设计，<br>都是对它的一点点偏爱。</p><span class="preview-signature">with love,<br>PAWMARK</span></div>
+</div>
+</div>
+<p class="digital-note">本服务提供数字设计文件，不包含实体冰箱贴的制作与寄送。页面图片为设计示例，实际结果以生成稿为准。</p>
+</section>
+
+<section class="how" id="how">
+<div class="how-heading"><p class="eyebrow">03 / A SIMPLE LITTLE JOURNEY</p><h2>把喜欢，变成一份作品。</h2></div>
+<div class="how-steps"><div class="how-item"><span>01</span><h3>选一张喜欢的照片</h3><p>让宠物的脸和姿态清晰可见，<br>留住你最熟悉的那份可爱。</p></div><div class="how-item"><span>02</span><h3>确认订单并付款</h3><p>每份数字设计稿 ¥3.00，<br>通过支付宝确认付款。</p></div><div class="how-item"><span>03</span><h3>生成，下载，收藏</h3><p>付款确认后开始生成，<br>完成后下载透明背景 PNG 图标。</p></div></div>
+</section>
+</main>
+<footer class="footer"><a class="foot-logo" href="#">PAWMARK<span>把可爱留在日常里。</span></a><div>宠物定制 · 数字设计工作室<small>每一份小小纪念，都源于喜欢。</small></div><a href="#studio">开始你的设计 <svg class="icon"><use href="#arrow"/></svg></a></footer>
+</div>
+
+<dialog class="modal checkout-modal" id="payModal" aria-labelledby="payTitle" aria-describedby="checkoutDescription">
+<div class="dialog checkout-dialog">
+<button class="close-modal" id="closeModal" aria-label="关闭订单弹窗">×</button>
+<span class="checkout-kicker"><img src="./favicon.svg" width="22" height="22" alt=""> PAWMARK / 订单确认</span>
+<h2 id="payTitle">一份专属的可爱，<br>准备开始。</h2>
+<p id="checkoutDescription" class="checkout-description">确认订单并付款后，我们将为你的宠物生成设计稿。</p>
+<div class="checkout-item"><img id="checkoutPhoto" alt="本次设计使用的宠物照片"><div><span class="item-label">DIGITAL DESIGN</span><strong>宠物冰箱贴设计稿</strong><p>1 份数字设计稿 · 透明背景 PNG 图标</p></div></div>
+<div class="checkout-includes"><span><svg class="icon"><use href="#check"/></svg> 宠物图标生成</span><span><svg class="icon"><use href="#check"/></svg> 透明图标下载</span></div>
+<div class="checkout-total"><span>应付金额<small>本次订单共 1 份</small></span><strong><small>¥</small>3.00</strong></div>
+<div class="payment-method"><span class="alipay-mark" aria-hidden="true">支</span><div>支付宝<small>由支付宝收银台完成付款</small></div><span class="method-selected" aria-label="已选择">✓</span></div>
+<button class="button" id="pay"><svg class="icon"><use href="#lock"/></svg>使用支付宝付款 <svg class="icon"><use href="#arrow"/></svg></button>
+<button class="checkout-query" id="checkPayment" hidden>我已付款，查询订单状态</button>
+<p id="payStatus" class="status" role="status" aria-live="polite"></p>
+<p class="checkout-note">确认到账后开始生成，可下载设计稿。<br>本次购买为数字文件，不含实物制作与寄送。</p>
+</div>
+</dialog>
+<script src="./magnet-tools.js"></script>
+<script src="./site-config.js?v=github-v1"></script>
+<script src="./pet-studio.js?v=github-frontend-v5"></script>
+</body></html>
